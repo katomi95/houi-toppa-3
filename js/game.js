@@ -1305,9 +1305,8 @@
     text('昼休みの宇宙戦争', cx, y - 40, 17, 'rgba(170,200,235,0.75)', 'center');
     text('危 険 宙 域 編', cx, y, 46, 'rgba(230,240,255,0.95)', 'center');
     text('HAZARD ZONE', cx, y + 30, 12, 'rgba(143,220,255,0.55)', 'center', MONO);
-    text('どの危険を受け入れ、どの危険を避けるか。', cx, y + 70, 15, 'rgba(170,200,235,0.8)', 'center');
 
-    y += 116;
+    y += 74;
     for (let i = 0; i < STAGES.length; i++) {
       const on = i === sel;
       const yy = y + i * 36;
